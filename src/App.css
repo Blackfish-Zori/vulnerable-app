@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-header-simple {
+  padding: 24px;
+  background: #282c34;
+  color: white;
+  text-align: center;
+}
+
+.panel {
+  max-width: 600px;
+  margin: 24px auto;
+  padding: 16px 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.panel form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.panel input {
+  flex: 1;
+  min-width: 180px;
+  padding: 8px;
+}
+
+.panel button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.comment-output, .greeting-output {
+  padding: 8px;
+  background: #f7f7f7;
+  border-radius: 4px;
+  min-height: 20px;
+}
+
+.fetch-output {
+  background: #f0f0f0;
+  padding: 8px;
+  white-space: pre-wrap;
+  word-break: break-all;
+  max-height: 200px;
+  overflow: auto;
+}
