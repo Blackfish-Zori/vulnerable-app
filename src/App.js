@@ -6,6 +6,7 @@ import config from "./config";
 
 // ⚠️ This app is intentionally vulnerable. Do not deploy it publicly
 // or reuse any of its patterns in real projects.
+// test update
 function App() {
   return (
     <div className="App">
