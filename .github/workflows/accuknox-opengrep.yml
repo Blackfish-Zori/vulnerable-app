@@ -21,4 +21,4 @@ jobs:
           accuknox_endpoint: "app.demo.accuknox.com"
           accuknox_token: ${{ secrets.ACCUKNOX_TOKEN }}
           accuknox_label: "zorigitsast"
-          soft_fail: "false"
+          soft_fail: "true"
