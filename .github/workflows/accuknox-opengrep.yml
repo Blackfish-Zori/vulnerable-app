@@ -18,7 +18,7 @@ jobs:
       - name: "Run Accuknox SAST: Opengrep"
         uses: accuknox/sast-scan-opengrep-action@latest
         with:
-          accuknox_endpoint: "app.demo.accuknox.com"
+          accuknox_endpoint: "cspm.demo.accuknox.com"
           accuknox_token: ${{ secrets.ACCUKNOX_TOKEN }}
           accuknox_label: "zorigitsast"
           soft_fail: "true"
